@@ -65,7 +65,7 @@ void printf(const char *fmt, ...)
         {
             putchar(*fmt);
         }
-        f++;
+        fmt++;
     }
 end:
     va_end(vargs);
