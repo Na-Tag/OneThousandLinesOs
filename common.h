@@ -9,6 +9,7 @@ typedef uint32_t vaddr_t; // 仮想メモリアドレスを表す型
 
 #pragma once // 重複した処理を防ぐための記述：コンパイル時に参照される。
 
+#define PAGE_SIZE 4096
 #define true 1
 #define false 0
 #define NULL ((void *)0) // 型をvoidに変換したポインタの初期化
